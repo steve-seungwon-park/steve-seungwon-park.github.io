@@ -60,5 +60,7 @@ nav{font-size:15px}
 /* Keep Selected Work figures secondary to the project descriptions */
 .project-visual{width:min(42%,190px);height:105px;margin:12px 0 0 auto;border:1px solid var(--line);background:#fff}
 @media(max-width:760px){.project-visual{width:min(45%,170px);height:95px}}
-.project-visual{object-fit:cover}
+.project-visual{position:relative;overflow:hidden;flex:0 0 auto}
+.project-visual img{position:absolute;left:50%;top:50%;width:200%;height:200%;max-width:none;object-fit:cover;transform:translate(-50%,-50%)}
+.project-feature{grid-row:auto}
 .featured-badge{display:inline-block;color:#8a4c27;background:#f4e8dc;padding:2px 8px;border-radius:2px;font-size:.72em;letter-spacing:.035em;white-space:nowrap}
