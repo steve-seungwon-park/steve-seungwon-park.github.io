@@ -22,3 +22,38 @@
 .paper-credit{border-top:1px solid var(--line);padding-top:18px;color:#506268;font-size:12px;line-height:1.8}
 .paper-credit a{color:var(--teal);font-weight:600}
 @media(max-width:760px){.figure-grid,.project-detail-grid{grid-template-columns:1fr}.project-metrics{grid-template-columns:1fr}.research-figure{padding:7px}.project-detail .section-heading{align-items:flex-start}}
+/* Larger type and image previews for project cards */
+body{font-size:18px}
+nav{font-size:15px}
+.eyebrow,.section-index,.card-top,.tags,.pub-year,.thesis-meta,.finding span{font-size:12px}
+.hero .eyebrow{font-size:12px}
+.lead{font-size:21px}
+.availability{font-size:16px}
+.button,.text-link{font-size:15px}
+.socials{font-size:14px}
+.intro-grid p:last-child{font-size:22px}
+.card-top{font-size:11px}
+.project-visual{display:block;width:100%;height:190px;object-fit:contain;background:#f7faf8;margin-top:20px}
+.project-card h3{font-size:27px}
+.project-card p{font-size:16px;line-height:1.65}
+.tags{font-size:11px}
+.card-link{font-size:14px}
+.skill-list span{font-size:16px}
+.skill-list p,.skills-content .skills-intro{font-size:15px}
+.publication-list h3{font-size:18px}
+.publication-list p{font-size:14px;line-height:1.6}
+.contact-inner p:not(.eyebrow){font-size:16px}
+.contact-foot{font-size:13px}
+.site-footer{font-size:12px}
+.thesis-meta{font-size:12px}
+.contents a{font-size:14px}
+.thesis-content p:not(.eyebrow){font-size:17px}
+.thesis-content h2{font-size:34px}
+.thesis-links{font-size:16px;line-height:1.7}
+.research-figure figcaption{font-size:14px}
+.project-summary{font-size:18px}
+.project-metrics p{font-size:14px}
+.project-detail-grid ul{font-size:16px}
+.detail-note{font-size:15px}
+.paper-credit{font-size:14px}
+@media(max-width:760px){nav{font-size:13px}.lead{font-size:19px}.intro-grid p:last-child{font-size:20px}.publication-list h3{font-size:16px}.project-visual{height:170px}.thesis-content h2{font-size:29px}}
