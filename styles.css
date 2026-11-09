@@ -57,3 +57,6 @@ nav{font-size:15px}
 .detail-note{font-size:15px}
 .paper-credit{font-size:14px}
 @media(max-width:760px){nav{font-size:13px}.lead{font-size:19px}.intro-grid p:last-child{font-size:20px}.publication-list h3{font-size:16px}.project-visual{height:170px}.thesis-content h2{font-size:29px}}
+/* Keep Selected Work figures secondary to the project descriptions */
+.project-visual{width:min(42%,190px);height:105px;margin:12px 0 0 auto;border:1px solid var(--line);background:#fff}
+@media(max-width:760px){.project-visual{width:min(45%,170px);height:95px}}
