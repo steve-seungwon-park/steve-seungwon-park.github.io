@@ -60,3 +60,4 @@ nav{font-size:15px}
 /* Keep Selected Work figures secondary to the project descriptions */
 .project-visual{width:min(42%,190px);height:105px;margin:12px 0 0 auto;border:1px solid var(--line);background:#fff}
 @media(max-width:760px){.project-visual{width:min(45%,170px);height:95px}}
+.featured-badge{display:inline-block;color:#8a4c27;background:#f4e8dc;padding:2px 8px;border-radius:2px;font-size:.72em;letter-spacing:.035em;white-space:nowrap}
