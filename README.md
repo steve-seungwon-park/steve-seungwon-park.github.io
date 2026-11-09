@@ -1,6 +1,6 @@
 # Steve Park portfolio website
 
-Static, responsive website prepared for GitHub Pages. It includes an industry-facing home page and a dedicated PhD thesis page for postdoctoral applications.
+Static, responsive website prepared for GitHub Pages. It includes an industry-facing home page, a dedicated PhD thesis page for postdoctoral applications, a project page, and an `assets/` folder for figures.
 
 ## Preview locally
 

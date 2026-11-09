@@ -4,3 +4,21 @@
 .skills-content .skills-intro{max-width:300px;color:#bbcdca;font-size:14px;margin-top:18px}
 .skill-list span{color:#d8ece3}
 .skill-list p{line-height:1.8;margin-top:5px}
+.publication-list h3 a{color:inherit}.publication-list h3 a:hover{color:var(--teal)}
+.research-figure{margin:26px 0 0;padding:12px;background:#fff;border:1px solid var(--line)}
+.research-figure img{display:block;width:100%;height:auto;max-height:650px;object-fit:contain;background:#fff}
+.research-figure figcaption{padding:10px 4px 2px;color:var(--muted);font-size:12px;line-height:1.5}
+.figure-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}
+.project-summary{max-width:850px;color:#506268;font-size:16px;line-height:1.8}
+.project-hero-figure{max-width:850px;margin-top:26px}
+.project-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:28px 0 50px;max-width:950px}
+.project-metrics>div{background:var(--mint);padding:20px}
+.project-metrics span{font:700 25px Manrope,sans-serif;letter-spacing:-.04em;color:var(--teal)}
+.project-metrics p{font-size:12px;color:#52656a;line-height:1.6;margin:7px 0 0}
+.project-detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;margin:0 0 35px}
+.project-detail-grid h3{font:600 21px/1.25 Manrope,sans-serif;letter-spacing:-.03em;margin:8px 0 14px}
+.project-detail-grid ul{padding-left:18px;color:#506268;font-size:14px}.project-detail-grid li{padding:5px 0}
+.project-detail-grid .tags{margin:12px 0}.detail-note{font-size:13px;color:var(--muted);line-height:1.7}
+.paper-credit{border-top:1px solid var(--line);padding-top:18px;color:#506268;font-size:12px;line-height:1.8}
+.paper-credit a{color:var(--teal);font-weight:600}
+@media(max-width:760px){.figure-grid,.project-detail-grid{grid-template-columns:1fr}.project-metrics{grid-template-columns:1fr}.research-figure{padding:7px}.project-detail .section-heading{align-items:flex-start}}
