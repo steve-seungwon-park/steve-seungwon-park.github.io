@@ -63,3 +63,6 @@ nav{font-size:15px}
 @media(max-width:760px){.project-visual{height:200px}}
 .project-feature{grid-row:auto}
 .featured-badge{display:inline-block;color:#8a4c27;background:#f4e8dc;padding:2px 8px;border-radius:2px;font-size:.72em;letter-spacing:.035em;white-space:nowrap}
+.cv-link{max-width:360px;text-align:right;line-height:1.4}
+.button-light{white-space:normal;max-width:360px;text-align:left;line-height:1.4}
+@media(max-width:760px){.cv-link{text-align:left}}
